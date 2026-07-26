@@ -1,0 +1,6 @@
+{
+  "name": "Data Analytics Portfolio",
+  "description": "Interactive Data Science & Analytics Showcase with 3D tech logos and Universal Live Data Studio for instant CSV, Excel, and JSON file processing, SQL querying, and visualization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

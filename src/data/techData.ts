@@ -1,0 +1,141 @@
+import { TechItem, SampleDataset } from '../types';
+
+import mysqlImg from '../assets/images/mysql_3d_logo_1784975797375.jpg';
+import pythonPandasImg from '../assets/images/python_pandas_3d_logo_1784975810183.jpg';
+import excelImg from '../assets/images/excel_3d_logo_1784975823781.jpg';
+import powerbiImg from '../assets/images/powerbi_3d_logo_1784975833599.jpg';
+import tableauImg from '../assets/images/tableau_3d_logo_1784975845202.jpg';
+import rLangImg from '../assets/images/r_lang_3d_logo_1784975862175.jpg';
+
+export const TECH_ITEMS: TechItem[] = [
+  {
+    id: 'mysql',
+    name: 'MySQL',
+    subtitle: 'Relational Database Management System',
+    category: 'Database & SQL',
+    imageSrc: mysqlImg,
+    badgeColor: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30',
+    glowColor: 'rgba(6, 182, 212, 0.4)',
+    accentGradient: 'from-cyan-500 to-blue-600',
+    description: 'World’s most popular open-source relational database. Essential for storing structured business data, index optimization, complex SQL joins, and transaction management.',
+    keyFeatures: ['Relational Schema & Constraints', 'CRUD Operations', 'Indexing & Query Optimization', 'Stored Procedures & Views'],
+    useCases: ['E-commerce Order Processing', 'User Authentication Stores', 'Financial Ledger Logging'],
+    difficulty: 'Intermediate',
+    popularityScore: 98,
+    githubUrl: 'https://github.com/Nazim2070/MySQL_Project',
+  },
+  {
+    id: 'python_pandas',
+    name: 'Python + Pandas',
+    subtitle: 'Data Wrangling & Analysis Engine',
+    category: 'Data Science & Code',
+    imageSrc: pythonPandasImg,
+    badgeColor: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
+    glowColor: 'rgba(245, 158, 11, 0.4)',
+    accentGradient: 'from-amber-500 to-yellow-500',
+    description: 'High-performance Python library for data structures (DataFrames) and analysis. Ideal for data cleaning, ETL pipelines, exploratory analysis, and ML feature engineering.',
+    keyFeatures: ['DataFrame Operations & Filtering', 'Data Aggregation & GroupBy', 'Handling Missing Values', 'Time Series Analysis'],
+    useCases: ['Automated Data Pipelines', 'Exploratory Data Analysis (EDA)', 'Machine Learning Prep'],
+    difficulty: 'Intermediate',
+    popularityScore: 99,
+    githubUrl: 'https://github.com/Nazim2070/pandas_project',
+  },
+  {
+    id: 'excel',
+    name: 'Excel',
+    subtitle: 'Spreadsheets & Financial Modeling',
+    category: 'Spreadsheets',
+    imageSrc: excelImg,
+    badgeColor: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
+    glowColor: 'rgba(16, 185, 129, 0.4)',
+    accentGradient: 'from-emerald-500 to-teal-600',
+    description: 'Universal standard for tabular analysis, ad-hoc calculations, Power Query ETL, PivotTables, and financial forecasting.',
+    keyFeatures: ['Advanced Formulas (VLOOKUP, HLOOKUP)', 'Pivot Tables & Slicers', 'Power Query & Data Models', 'VBA & Office Scripts'],
+    useCases: ['Financial Statements & Valuations', 'Budget Tracking & Forecasting', 'Quick Executive Reports'],
+    difficulty: 'Beginner',
+    popularityScore: 96,
+    githubUrl: 'https://github.com/Nazim2070/Excel_Project',
+  },
+  {
+    id: 'powerbi',
+    name: 'Power BI',
+    subtitle: 'Enterprise Business Intelligence & DAX',
+    category: 'Business Intelligence',
+    imageSrc: powerbiImg,
+    badgeColor: 'bg-yellow-500/20 text-yellow-300 border-yellow-500/30',
+    glowColor: 'rgba(234, 179, 8, 0.4)',
+    accentGradient: 'from-yellow-400 to-amber-600',
+    description: 'Microsoft’s flagship BI service for connecting diverse data sources, building interactive dashboards with DAX measures, and publishing row-level secure reports.',
+    keyFeatures: ['Interactive Cross-filtering', 'DAX Measure Formulas', 'Power BI Service Gateway', 'Row Level Security (RLS)'],
+    useCases: ['Executive KPI Dashboards', 'Sales Performance Tracking', 'Supply Chain Analytics'],
+    difficulty: 'Intermediate',
+    popularityScore: 97,
+    githubUrl: 'https://github.com/Nazim2070/Power_BI_Project',
+  },
+  {
+    id: 'tableau',
+    name: 'Tableau',
+    subtitle: 'Visual Analytics & Data Storytelling',
+    category: 'Data Visualization',
+    imageSrc: tableauImg,
+    badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
+    glowColor: 'rgba(168, 85, 247, 0.4)',
+    accentGradient: 'from-purple-500 to-indigo-600',
+    description: 'Industry benchmark for rapid visual discovery, drag-and-drop analytics, custom spatial mapping, LOD expressions, and dashboard storytelling.',
+    keyFeatures: ['Charts', 'Dashboards', 'Custom Geo Mapping', 'Story Points'],
+    useCases: ['Customer Segmentation Maps', 'Geospatial Analytics', 'Interactive Public Portals'],
+    difficulty: 'Intermediate',
+    popularityScore: 94,
+    githubUrl: 'https://github.com/Nazim2070/Tableua_Project',
+  },
+  {
+    id: 'r_lang',
+    name: 'R Language',
+    subtitle: 'Statistical Computing & Graphics',
+    category: 'Statistics & Math',
+    imageSrc: rLangImg,
+    badgeColor: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30',
+    glowColor: 'rgba(99, 102, 241, 0.4)',
+    accentGradient: 'from-indigo-500 to-blue-700',
+    description: 'Statistical programming language designed for statisticians and data scientists. Renowned for ggplot2 visualizations, dplyr data manipulation, and biostatistics.',
+    keyFeatures: ['ggplot2 Visualization', 'dplyr & tidyverse', 'Statistical Hypothesis Testing', 'Time Series & Forecasting'],
+    useCases: ['Academic & Scientific Research', 'Biostatistics & Clinical Trials', 'Econometric Modeling'],
+    difficulty: 'Beginner',
+    popularityScore: 91,
+    githubUrl: 'https://github.com/Nazim2070/R_Project',
+  },
+];
+
+export const SAMPLE_DATASETS: SampleDataset[] = [
+  {
+    id: 'sales_orders',
+    name: 'E-commerce Sales Orders',
+    description: '10 sample order records with regions, categories, sales, profit, and customer segments.',
+    columns: ['order_id', 'region', 'category', 'segment', 'sales', 'profit', 'quantity'],
+    data: [
+      { order_id: 'ORD-101', region: 'North', category: 'Technology', segment: 'Corporate', sales: 1250, profit: 320, quantity: 3 },
+      { order_id: 'ORD-102', region: 'South', category: 'Furniture', segment: 'Consumer', sales: 840, profit: 110, quantity: 2 },
+      { order_id: 'ORD-103', region: 'East', category: 'Technology', segment: 'Home Office', sales: 2100, profit: 620, quantity: 5 },
+      { order_id: 'ORD-104', region: 'West', category: 'Office Supplies', segment: 'Corporate', sales: 310, profit: 85, quantity: 10 },
+      { order_id: 'ORD-105', region: 'North', category: 'Furniture', segment: 'Consumer', sales: 1560, profit: -45, quantity: 4 },
+      { order_id: 'ORD-106', region: 'South', category: 'Technology', segment: 'Corporate', sales: 3400, profit: 980, quantity: 6 },
+      { order_id: 'ORD-107', region: 'East', category: 'Office Supplies', segment: 'Consumer', sales: 420, profit: 130, quantity: 8 },
+      { order_id: 'ORD-108', region: 'West', category: 'Technology', segment: 'Home Office', sales: 1890, profit: 450, quantity: 3 },
+      { order_id: 'ORD-109', region: 'North', category: 'Office Supplies', segment: 'Corporate', sales: 670, profit: 210, quantity: 12 },
+      { order_id: 'ORD-110', region: 'South', category: 'Furniture', segment: 'Consumer', sales: 1120, profit: 290, quantity: 3 },
+    ]
+  },
+  {
+    id: 'marketing_campaigns',
+    name: 'Marketing Campaign Performance',
+    description: 'Performance metrics across Facebook, Google Ads, LinkedIn, and Organic Search.',
+    columns: ['channel', 'ad_spend', 'clicks', 'conversions', 'revenue', 'roas'],
+    data: [
+      { channel: 'Google Search Ads', ad_spend: 5000, clicks: 12400, conversions: 620, revenue: 18600, roas: 3.72 },
+      { channel: 'Facebook Paid Social', ad_spend: 3500, clicks: 9800, conversions: 310, revenue: 8990, roas: 2.57 },
+      { channel: 'LinkedIn B2B Ads', ad_spend: 4200, clicks: 3100, conversions: 180, revenue: 14760, roas: 3.51 },
+      { channel: 'Organic Search (SEO)', ad_spend: 1200, clicks: 24500, conversions: 890, revenue: 26700, roas: 22.25 },
+      { channel: 'Email Newsletter', ad_spend: 400, clicks: 5600, conversions: 420, revenue: 11340, roas: 28.35 },
+    ]
+  }
+];
