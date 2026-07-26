@@ -194,7 +194,7 @@ export default function App() {
           {/* Resume CTA Button */}
           <div className="pt-1 flex justify-center">
             <a
-              href="https://github.com/Nazim2070/resume/blob/main/1_Nazim_Khan_Resume.docx"
+              href="https://github.com/Nazim2070/resume/blob/main/1_Nazim_Khan_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-extrabold px-5 py-2.5 rounded-xl text-xs sm:text-sm shadow-lg shadow-emerald-500/25 border border-emerald-300 transition-all hover:scale-105 active:scale-95"
@@ -338,7 +338,7 @@ export default function App() {
 
               {/* Resume Button */}
               <a
-                href="https://github.com/Nazim2070/resume/blob/main/1_Nazim_Khan_Resume.docx"
+                href="https://github.com/Nazim2070/resume/blob/main/1_Nazim_Khan_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-2.5 min-h-[44px] rounded-xl text-xs sm:text-sm font-bold bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 shadow-lg shadow-emerald-500/25 border border-emerald-300 transition-all active:scale-95"
