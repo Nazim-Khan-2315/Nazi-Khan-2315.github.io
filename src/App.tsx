@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { TECH_ITEMS } from './data/techData';
 import { TechId } from './types';
 import { TiltCard } from './components/3dTiltCard';
-import pythonPostgresPowerBiImg from '.\assets\images\python_postgres_powerbi_logo_1785583502475.jpg';
+import pythonPostgresPowerBiImg from './/assets//images//python_postgres_powerbi_logo_1785583502475.jpg';
 import {
   Search,
   X,
