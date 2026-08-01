@@ -374,7 +374,7 @@ export default function App() {
               </a>
 
               <a
-                href="https://github.com/Nazim-Khan-2315/Customer_Shopping_Behaviour/blob/main/Customer%20Shopping%20Behaviour%20Analysis%20Report.docx"
+                href="https://github.com/Nazim-Khan-2315/Customer_Shopping_Behaviour/blob/main/Customer%20Shopping%20Behaviour%20Analysis%20Report.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`flex items-center justify-center gap-2 px-5 py-3 min-h-[44px] rounded-xl text-xs sm:text-sm font-bold border transition-all active:scale-95 ${
