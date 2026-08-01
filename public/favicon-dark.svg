@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Border Gradient: Blue/Cyan (bottom-left) to Purple/Magenta (top-right) -->
+    <linearGradient id="borderGradDark" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur1" />
+      <feGaussianBlur stdDeviation="24" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark Background Container with Rounded Corners and Gradient Border -->
+  <rect
+    x="18"
+    y="18"
+    width="476"
+    height="476"
+    rx="130"
+    ry="130"
+    fill="#080c14"
+    stroke="url(#borderGradDark)"
+    stroke-width="34"
+  />
+
+  <!-- Subtle inner ambient dark glow -->
+  <rect
+    x="36"
+    y="36"
+    width="440"
+    height="440"
+    rx="112"
+    ry="112"
+    fill="none"
+    stroke="#06b6d4"
+    stroke-width="2"
+    opacity="0.2"
+  />
+
+  <!-- Glowing Neon Cyan < /> Symbol -->
+  <g filter="url(#neonGlow)" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Angle Bracket < -->
+    <path d="M 205 196 L 145 256 L 205 316" stroke="#22d3ee" stroke-width="34" />
+    <!-- Forward Slash / -->
+    <path d="M 240 336 L 272 176" stroke="#22d3ee" stroke-width="34" />
+    <!-- Right Angle Bracket > -->
+    <path d="M 307 196 L 367 256 L 307 316" stroke="#22d3ee" stroke-width="34" />
+  </g>
+
+  <!-- Crisp Core Layer for Sharpness -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Angle Bracket < -->
+    <path d="M 205 196 L 145 256 L 205 316" stroke="#a5f3fc" stroke-width="26" />
+    <!-- Forward Slash / -->
+    <path d="M 240 336 L 272 176" stroke="#a5f3fc" stroke-width="26" />
+    <!-- Right Angle Bracket > -->
+    <path d="M 307 196 L 367 256 L 307 316" stroke="#a5f3fc" stroke-width="26" />
+  </g>
+</svg>
