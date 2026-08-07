@@ -62,7 +62,7 @@ export default function App() {
     setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
   };
 
-  const categories = ['All', 'Database & SQL', 'Data Science & Code', 'Spreadsheets', 'Business Intelligence', 'Data Visualization', 'Statistics & Math'];
+  const categories = ['All', 'Database & SQL', 'Data Science & Code', 'Spreadsheets', 'Business Intelligence', 'Data Visualization', 'Statistics & Math','Complete Project'];
 
   const filteredTech = TECH_ITEMS.filter((item) => {
     const matchesSearch =
